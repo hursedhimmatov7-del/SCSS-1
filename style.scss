@@ -222,6 +222,51 @@ padding: 15px 0px;
         gap: 20px;
         text-align: center !important;
     }
+.sec5{
+    max-width: 1200px;
+    margin: 0px auto 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    .grid5{
+        width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+    }
+    .gri{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 33%;
+        border-radius: 10px;
+        border: 3px solid #8EC2F2;
+       padding: 5% 5%;
+    }
+    button{
+        color: white;
+        background-color: #23A6F0;
+        border: none;
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .gris{
+        align-self: flex-start;
+        color: white;
+        height: 80vh;
+        background-color: #252B42;
+    }
+    .che{
+        align-self: flex-start;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+}
 
 @media (max-width:500px){
     header{
@@ -345,5 +390,17 @@ padding: 15px 0px;
     }
     .gridd{
         width: 80%;
+    }
+    .sec5{
+        width: 90%;
+        margin: 50px auto;
+        .grid5{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .gri{
+            width: 90%;
+        }
     }
 }
