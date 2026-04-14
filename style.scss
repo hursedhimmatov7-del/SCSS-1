@@ -306,7 +306,25 @@ padding: 15px 0px;
         padding: 20px 10px;
     }
 }
-
+footer{
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    .foots{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+.h4{
+    text-align: center;
+    color: #737373;
+    background-color: #FAFAFA;
+    padding: 40px 0px;
+}
 @media (max-width:500px){
     header{
         display: none;
@@ -457,6 +475,12 @@ padding: 15px 0px;
         width: 100%; 
         padding: 2px 5px;       
     }
+    }
+    footer{
+        width: 60%;
+        margin: 50px 20%;
+        flex-direction: column;
+        gap: 30px;
     }
     
 }
