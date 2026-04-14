@@ -1,1 +1,199 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100%;
+  background-image: url(bac.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head button {
+  color: white;
+  background-color: #23A6F0;
+  border: none;
+  padding: 10px 20px;
+}
+.head .icons {
+  display: none;
+}
+.head .navmed {
+  display: none;
+}
+
+header .heads {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+header .heads nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.head1 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head1 .headtext {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  color: white;
+  gap: 40px;
+}
+.head1 h1 {
+  font-size: 65px;
+}
+.head1 p {
+  width: 60%;
+}
+.head1 .bt1 {
+  border: none;
+  background-color: #23A6F0;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.head1 .bt2 {
+  border: 2px solid white;
+  background: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 10px;
+}
+
+.inputs {
+  width: 25%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  padding: 40px 30px;
+  border-radius: 10px;
+}
+.inputs h3 {
+  align-self: center;
+}
+.inputs input {
+  border: 2px solid rgba(0, 0, 0, 0.199);
+  padding: 10px 80px 10px 20px;
+  background-color: #F9F9F9;
+}
+.inputs select {
+  width: 120%;
+  border: 2px solid rgba(0, 0, 0, 0.199);
+  padding: 10px 90px 10px 20px;
+  background-color: #F9F9F9;
+}
+.inputs button {
+  background-color: #23A6F0;
+  width: 100%;
+  border: none;
+  padding: 15px 0px;
+  color: white;
+}
+
+.headermedia {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  header {
+    display: none;
+  }
+  .headermedia {
+    width: 100;
+    background-image: url(bacmed.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+  .headermedia .medtext {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .headermedia .t1 {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 15px 0px;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .headermedia .icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  .headermedia .navmed {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px 0px;
+    font-size: 25px;
+  }
+  .head1med {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .headtext {
+    padding: 120px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    color: white;
+  }
+  .butts {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .bt1 {
+    border: none;
+    background-color: #23A6F0;
+    padding: 10px 30px;
+    border-radius: 10px;
+  }
+  .bt2 {
+    border: 2px solid white;
+    background: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+  }
+  .inputs {
+    margin: 100px auto;
+    padding: 10%;
+    width: 70%;
+  }
+  input, select {
+    padding: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
